@@ -76,6 +76,10 @@ body{
   margin-bottom: 75px;
 }
 
+.mobile-bg {
+  display: none;
+}
+
 .top__images {
   background-image: url(../images/top-bg.jpg);
   min-height: 545px;
@@ -116,6 +120,7 @@ body{
 
 .top__inner-title {
   font-size: 60px;
+  line-height: 60px;
   margin-bottom: 40px;
   font-weight: 600;
   color: #fff;
@@ -163,6 +168,10 @@ body{
   color: #000;
   font-weight: 400;
   width: 195px;
+}
+
+.mobile__link-btn {
+  display: none;
 }
 
 .top-form input + input {
@@ -256,6 +265,7 @@ body{
   line-height: 50px;
   max-width: 470px;
   margin-bottom: 30px;
+  padding-top: 40px;
 }
 
 .tabs__content {
@@ -283,7 +293,8 @@ body{
   position: absolute;
   height: 100%;
   top: 0;
-  width: 100%;
+  /* width: 100%; */
+  width: 25%;
   background-color: #f6f9f3;
 }
 
@@ -401,7 +412,7 @@ body{
 
 .tabs__box .tab {
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 600;
   width: 50%;
   text-transform: none;
   display: flex;
@@ -560,7 +571,8 @@ body{
 .composition__link-btn,
 .reviews__link-poup,
 .build__link,
-.certificate__link {
+.certificate__link,
+.mobile__link-btn {
   padding: 22px 85px 22px 27px;
   outline: none;
   color: #fff;
@@ -783,6 +795,46 @@ body{
   background-repeat: no-repeat;
   background-size: auto;
   position: relative;
+}
+
+.effect-02 {
+  background-image: url(../images/comp-2.png);
+}
+
+.effect-03 {
+  background-image: url(../images/comp-3.png);
+}
+
+.effect-04 {
+  background-image: url(../images/comp-4.png);
+}
+
+.effect-05 {
+  background-image: url(../images/comp-5.png);
+}
+
+.effect-06 {
+  background-image: url(../images/comp-6.png);
+}
+
+.effect-07 {
+  background-image: url(../images/comp-7.png);
+}
+
+.effect-08 {
+  background-image: url(../images/comp-8.png);
+}
+
+.effect-09 {
+  background-image: url(../images/comp-9.png);
+}
+
+.effect-10 {
+  background-image: url(../images/comp-10.png);
+}
+
+.effect-11 {
+  background-image: url(../images/comp-11.png);
 }
 
 .composition__item-num,
